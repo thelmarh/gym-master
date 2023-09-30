@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-items {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+  height: 0px;
+  justify-content: flex-end;
+  font-weight: 40px;
+  list-style-type: none;
+}
+
+.nav-link a {
+  list-style-type: none;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(130, 128, 184);
+}
+.nav-link a:hover {
+  color: blue;
+}
+
+.container {
+  background-color: #172339;
+  padding-top: 70px;
+  justify-content: space-between;
+}
+
+.intro-title {
+  color: rgb(8, 72, 235);
+}
+
+.intro-text1 {
+  color: white;
+  margin-top: 20px;
+}
+
+.intro-text2 {
+  color: white;
+}
+
+.image-session {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -300px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.playstore-link {
+  display: inline-flex;
+  align-content: center;
+}
+
+.footer {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
